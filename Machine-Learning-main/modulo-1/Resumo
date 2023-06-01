@@ -1,0 +1,174 @@
+1) Introdução ao Machine Learning.
+
+ - Treinamento de sistemas de I.A, sendo tomadas decisões baseadas em regras bem definidas e não sendo deixado levar pela emoção. Também é possivel ajudar os humanos a tomar decisões.
+ 
+ - A I.A hoje em dia é vista pode ser de forma Geral e Restrita. 
+ Exemplos de Restrita: Sistema de reconhecimento facial, recomendação de certo produto.
+ Exemplo de Geral: c3po, R2-D2, ficção científica (No filme EX Machina um robô faz parte no teste de turing, onde ele engana a pessoa). O Teste de Turing determina a capacidade de uma máquina exibir comportamento inteligente equivalente a um humano.
+ 
+ - Relação entre ML(Machine Learning) E I.A;
+ Por meio do ML obtemos(ou não) uma I.A restrita.
+ Exemplo de obtenção de I.A: Tirar foto do rosto para o sistema de reconhecimento facial reconhecer o seu rosto.
+ 
+  - O que é ML?
+  O objetivo do aprendizado de ML é programar computadores para aprender um determinado comportamento ou pad~rao automaticamente a partir de exemplo ou observações (DATASETS). Um sistema de reconhecimento de face é baseado em estudo de dados, portante um sistema de reconhecimento facial de gatos e cachorroes possue uma quantidade de imagens de gatos e cachorros a fim de treinar a máquina para indentificar posteriormente.
+  
+  - Aprendizado por Reforço
+ Caso aprende de forma efetiva, recebe um valor positivo, caso aprenda de forma negativa, recebe um valor negativo. Para I.A o método de redes neurais é o mais utilizado, sendo uma forma de aprendizado restrito.
+ 
+ - Visão 2D ou 3D. Temos dois olhos para ter noção de pronfudidade, portanto precisamos enxergar um mundo em 3d. uma visão computacional em 2D possui alguns problemas. Um sistema de rede YOLO, por exemplo, identifica adesivos/posters como pessoa, objetos e etc. Os reconhecimentos faciais em celulares hoje em dia utiliza da visão 3D para identificar a face do usuário, visto que antigamente era possível desbloquear apenas com foto, pois era utilizado sistemas de visão em 2D.
+ 
+ - A parte ética para Sistemas Inteligentes.
+ Tomadas de decisões sem sentimentos;
+ Proteger o dono ou a criança?
+ Proteger a criança ou uma velhinha?
+ 
+ - Aplicações de ML e I.A
+ Suporte para medicina (Sistemas que conseguem avaliar câncer de mama, calcificação, pedaço de tumor e etc).
+ Comunicação entre máquinas na indústria (Verificar manuntenção, qualidade do produto).
+ Reconhecer o tipo de carne e seu valores.
+ BIG Data (Análise de grande volumes de dados)
+ Sistema de Recomendação ( Coleção > Armazenamento > Análise > Recomendação)
+ Transhumanismo (Melhoramento corporal e cerebral)
+ Máquinas que pensam como humanos.
+ - Avatar project milestones 2045 -
+------------------------------------------------------------------------------------
+2) Métodos de Machine Learning bioinspirados
+
+ - Onde nasceu a ideia do ML (Raciocionio Lógico humano evitando os erros humanos)
+ - Existe Também o interesse em busca de inspiração na natureza.
+ 
+ - Algoritmos Bioinspirados:
+   Inspirados no comportamento de seres vivos em convivência social. além do conhecimento colaborativo e compartilhado. É utilizado métodos heurísticos, isto é, não determinísticos, que a resposta não é única, buscando assim a melhor solução global.Exemplos:
+   
+   1- O algoritmo de colônia de Formigas. As formigas vão em busca da fonte de comida, no primeiro momento vão por caminhos distintos, a partir de um momentos a maioria irá pelo menor caminho, até o momento que todas as formigas irão se locomover pelo menor caminho.
+  Aplicação de sistemas: O robô navegará pelo caminho que a maioria do robôs passaram, sendo feito armazenamento matematicos, sendo o valor 1 para um bom caminho, -1 para um caminho ruim e 0 para um caminho não explorado.
+  
+   2- O algoritmo de colônia de Abelhas. O sistema sempre obedecerá a sua rainha, isto é, a região de busca leva em consideração o planejamento de vôo e a distancia relativa proxima a colmeia.
+   Aplicação de sistemas: Alguns tipos de algoritmo de roteamento de redes, onde o problema que esta sendo atacado não tem problema para não encontrar a melhor solução possível.
+   
+   3- O algoritmo de redes neurais. Algoritmos de classificação e regressão, e redes neurais profundas ( deep learning).
+   
+   4 - Comportamento da génetica. Como acontece a mutação, o cromossomo, o núcleo. Recombine as suas melhores solução para ver se a solução filha gerará uma solução filha melhor que os pais.
+   
+   5 - Lógica fuzzy (nebulosa). A ideia consiste em trabalhar com diferentes pontos de vista. o fator de satisfaçãp para diferentes pessoas é mutavel. Por exemplo, definir o tamanho de pessoa como indivíduo alto ou baixo.
+   
+   Algoritmos heurísticos x determinísticos
+   
+   Determinísticos: resultado exato, 2+2 = 4, valor pré-determinado, sendo uma lógica booleana. HIGH OU LOW
+   Heurístico: Qual é a pessoa mais bonita? Cada um teŕá um tipo de pessoa, sendo uma lógica difusa, uma lógica fuzzy.
+   A lógica fuzzy possui um range de valores de muito frio a quente, sendo o meio (mais ou menos) o sistema escolhido. As relações humanas são baseadas em respostas heuristícas, portanto os métodos de maquinas mais proximos aos humanos são baseados em lógica heuristíca.
+   
+   As redes neurais artificiais (RNA), é inspirado nos neuronios e se comporta com valores de forma aleatoria e conjunto diversos. A rna reconhece pois generaliza e reconhece, por mais que alguns valores tiverem sido alterados.
+
+------------------------------------------------------------------------------------
+3) Redes Neurais Artificais
+ O que são? Biologicamente são as interligações entre os neuronios, onde um neuronio manda a um sinal de ativação para outro, fazendo a ativação cerebral que processa um pensamento, um calćulo, uma visão e etc. COmputacionalmente é um modelo para classificar problemas, trazendo algortimos inteligente para o estudo de Machine Learning,sendo processado apenas um função restrita, como vimos anteriormente, uma I.A restrita.
+ 
+ -Estrutura de uma RNA
+ é um conjunto de interligações neurais que se comunica a partir de sinais eletricos, e nossos neuronios de forma unida conseguem aprender e criar estímulos voluntarios ou involutarios (respiração).
+ O sistema de um neurônio artificial possui a função heuristica, para determinar uma imagem, biometria e etc, Assim sendo, a operação é utilizada se a taxa de aceitação for.
+ Sinais de entrada - Todos os valores que chegam
+ Pesos sinápticos
+ Combinador Linear
+ Função de ativação - Interpretar os valores após a combinação linear.
+ Função de saída ativa - sinal de saída
+ 
+ -Dados de entrada e saída.
+ A visão humana utilizada recebe um sinal de entrada ( A luz que incediam), processam (Redes neurais) e recebemos os dados interpretados.
+ Na visão computacional, a imagem capturada pela câmera precisa de algoritmos que reocnheçam essa imagens e transforme esse conjunto de pixel em dados interpretados. 
+
+ - Análises de caracteristicas
+ Uma RNA, percorre diversas matrizes da imagem de forma que consiga identificar algumas caracteristicas (Hidden Layers) para tentar definir o tipo da imagem. A propria rede defini quais hidden layers é importante para classificar a imagem.
+ A matriz adaptará a imagem de modo de percorrer toda a iamgem, após isso mapa de caracteristicas é definido e levado para rede.Uma imagem colorida possui 3 matrizes (Red, Green e Blue), desse modo é utilizado, quando viavel, a imagem em tons de cinzas, reduzindo de 3 para apenas uma matriz. Desse modo, as caracteristicas geradas nas redes neurais é uma caixa preta, pois não sabemos como ele se comporta em relação aos aprendizados.
+ 
+ - Como são as caracteristicas?
+ Face Humana : Boca, nariz, olhos, tamanho do nariz, formato do rosto.
+ Cachorro: Formato da face, focinho, olhos
+ Carros: Formato de design do carro.
+ Avestruz: Perna do passarinho, formato do bico e etc.
+ Uma matriz de valores (a11, a12 .....)
+ 
+ - Classificação 
+ Temos classes. Exemplo: CAT e NOT CAT, dando o valor 1 para gato e 0 para não gato, porém esse sistema possui apenas duas variaveis. Uma imagem é capturada e levada para matrizes de convulação de modo que serão unidas e obtendo os dados processados. É ensinado a rede a partir da entrada e seu rótulo, e no final o sistema de classificação definirá se é um gato ou não.
+ 
+ Como montar base de treino (DATASET)
+ Quanto mais tipos de imagens da classe melhor, pois tudo que estará dentro da pasta que será examinado pela rede. 
+ 
+ O que gera um treinamento?
+ Um treinamento é formado por valores (pesos), de modo que as conexões entre os neuronios recebem valores numericos. Arquivo de peso e de sáida. valor de resposta negativo, resposta negada.
+ 
+ Transfer learning. Utiliza o treinamento de uma máquina para outra.
+
+------------------------------------------------------------------------------------
+4) Algoritmos Genéticos
+- AG (algoritmo génetico) é uma tecnica de busca utilizada na ciencia da computação para achar soluções aproximadas em problemas de otimização e busca.É dada pela evolução de amostras, gerando solução heurística, sendo o melhor valor possivel conhecido como ótimo global.
+
+- Etapas da AG
+ Gerar uma população de forma aleatoria => Função fitness(Avalia as amostras e verifica se está dentro do ranking esperado) => População ordenada segundo o valor da função fitness => Cruzamento dos melhores individuos(valor númerico). Ex: Pegar dois vetores e concatenar, gerando um filho melhor que os pais => função fitness novamente => Nova população de tamanho n+x => loop
+ 
+ - Aplicações:
+ Jogos digitais (mudar comportamento dos boots).
+ Chatbots em ensino.
+ Planejamento de rotas em robôs móveis.
+ 
+ - Métodos de otimização para Algoritmos Genéticos
+ Evitar comportamentos repetidos (Mutação)
+ Gerar comportamentos novos para cada agente
+ Ensi
+------------------------------------------------------------------------------------
+Algoritmos de SVM
+
+- Definir o plano que irá dividir as classes.
+ Terá uma entrada no espaço de busca => caracteristicas dessas amostras => Depois dividirá a amostras em duas classses.
+
+ - Aprendizado não supervisionado
+ Base de dados que não tem rótulos 
+ Inicilização do meio => atribuição do grupo => atualização do meio => convergência
+ 
+ obs: clustters(Ponto centralizaddo pela coincidencia de caracteristicas)
+ 
+ -Aprenziado Supervisionado
+ Base de dados rotulados, pois possui a relação de saída com entrada.
+ Entrada dos dados => interpretação dos resultados => aplicação do algoritmo => processamento dos dados => saída dos dados
+ 
+ -Diferença entre RNA e SVM
+ De fato, a diferença é pequena, o svm foca em estabelecer o hiperplano, otimizando as margens, de forma que não fica proximo as amostras. A RNA busca sempre o mínimo global, de forma que o treinamento é designado a abaixar o valor do erro.
+ 
+ -Resultado esperado de uma SMV
+ Fronteira de divisão no hiperplano, de modo de otimizar a distancia da nossa fronteiras para nossas amostras(margem).
+ 
+ O nome máquina de vetores é as coordenadas deasobservação individual. Uma SVM é uma fronteira que melhor realiza as duas classes (hiperplano/linha)
+ 
+ - Desenvolvimento da hipótese.
+ Existem situações que não é possível separar as duas classes, neste caso possui uum outliers(dado fora do padrão), no entanto, a SVM tem recursos que ignoram outliers.
+ 
+ Afinal, RNA ou SVM?
+ As RNAs são mais robustas, portanto a capacidade de separação dos dados é melhor quando comparado a SVM, que trabalha apenas com traço no hiperplano.
+ 
+------------------------------------------------------------------------------------
+Criação e utilização de Datasets (Teoria e Prática)
+
+ -O que é um Dataset?
+ Conjunto de dados que representa muito bem o problema que eu quero tratar. Dataset (Cat / Dog) => Output Cat || Dpg
+ 
+-Como devem ser minhas amostras?
+ Gerar imagens com poscionamento diferente
+ O sistema deve possuir uma base de dados robustas, portanto, a partir de 100/200 imagens o ssitema terá uma acuracia maior.
+ Quanto maior a base de dados, maior processamento/tempo/memoria.
+ 
+ -O treinamento é uma fase offline do ssitema, portanto o tempo não necessarimente é um problema.
+ 
+ Dataser de digitos: Um algoritmo inteligente que reconhecei letras e números
+ Dataset para detecção:  rotular o objeto designado
+ Dataser para segmentação: Pinta o objeto, ignorando o fundo.
+ Base de dadps númericos(CPF por exemplo): Disponibilzar o financiamento, cartão, score
+ bases de dados disponíveis
+ Google, Kaggle, Amazon Datasets, gov Datasets, TensorFlow.
+ 
+ image net 
+ Como escolher base pronta? 
+ A oartir de rankings/ artigos que usaram a base e etc
+ Gerando Dataset
+
+

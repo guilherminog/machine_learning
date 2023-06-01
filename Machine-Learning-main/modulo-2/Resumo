@@ -1,0 +1,44 @@
+Linguagens de Programação para ML
+
+- O paradigma de programação
+É sabe utilizar a melhor linguagem para determinado problema.
+Lógico;
+Funcional;
+Imperativa;
+Orientada ao Objeto;
+
+- Paradigma de programação imperativa.
+Descreve a computação como ações, enunciados ou comandos que mudam o estado(variáveis) de um programa. *Assembly language/ C
+
+- Paradigma de programação Lógica
+O sentido de programação lógica é trazer o estilo da lógica matemática à programação de computadores (Portas Lógicas). *Prolog
+
+- Paradigma de programação Funcional
+É um paradigma de programação que trata a computação como uma avaliação de funções matemáticas. *R e Scheme(Linguagem Funcional)/ Pyhton e JS (Suporte para linguagem funcional)
+
+- Paradigma de promação orienta a objetos
+Transformar nossos problemas do mundo real em partes para o computador (Encapsulamento, abstração, herança.Poliformismo).
+Funções => dados
+Objeto = Métodos => Dados
+
+Programação Multi-paradigma
+Ambiente de computação numérica multi-paradigma.
+Matlab
+------------------------------------------------------------------------------------
+Python para Machine Learning
+numpy
+torch framekwork
+import time : valores de tempo do algoritmo
+------------------------------------------------------------------------------------
+Matlab para Machine Learning
+
+------------------------------------------------------------------------------------
+R para Machine Learning
+
+------------------------------------------------------------------------------------
+Instalação de bibliotecas e dependências
+
+------------------------------------------------------------------------------------
+Plataformas de Colaboração: Github e Colab
+
+
